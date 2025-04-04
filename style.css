@@ -14,10 +14,6 @@ body {
     color: #fff;
 }
 
-html, body {
-    user-select: none;
-}
-
 .white {
     fill: #fff;
 }
@@ -50,9 +46,8 @@ html, body {
 
 @font-face {
     font-family: 'tariselLombardicBlack';
-    src: url('/fonts/TariselLombardic-Black_otf.woff2') format('woff2'),
-    src: url('/fonts/TariselLombardic-Black_ttf.woff2') format('truetype'),
-    src: url('/fonts/TariselLombardic-Black.ttf') format('truetype');
+    src: url('/fonts/TariselLombardic-Black_otf.woff2') format('woff2');
+/*    font-weight: normal;*/
     font-weight: 100;
     font-style: normal;
 }
@@ -109,6 +104,17 @@ h3 {
     text-align: justify;
     text-justify: auto;
     text-align-last: center;
+}
+
+h4 {
+	font-family: tariselHybridReg, serif;
+    font-size: 34px;
+    line-height: 40px;
+    font-weight: 100;
+    text-align: center;
+    margin: 0 0 0 0;
+    max-width: 640px;
+
 }
 
 p {
@@ -402,20 +408,20 @@ b {
 /*      trial     */
 
 .trial {
-    font-size: 60vw;
+    font-size: 50vw;
     animation: trial 2s linear infinite;
 }
 
 @keyframes trial {
-    from {font-feature-settings: "ss04";}
-    to {font-feature-settings: "ss01";}
+    from {font-feature-settings: normal;}
+    to {font-feature-settings: "ss12";}
 }
 
 
 /*      question disco     */
 
 .question {
-    font-size: 60vw;
+    font-size: 92vw;
     font-feature-settings: normal;
     animation: question 2s linear infinite;
 }
@@ -424,6 +430,14 @@ b {
     from {font-feature-settings: normal;}
     to {font-feature-settings: "ss12";}
 }
+
+@media (min-width: 500px){
+    .question {
+        font-size: 60vw;
+    }
+}
+
+
 
 
 /*      student disco     */
@@ -493,9 +507,6 @@ footer {
     letter-spacing: -1.6px;
 }
 
-.y_p {
-    letter-spacing: -px;
-}
 
 
 
