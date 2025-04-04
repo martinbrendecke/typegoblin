@@ -14,6 +14,10 @@ body {
     color: #fff;
 }
 
+html, body {
+    user-select: none;
+}
+
 .white {
     fill: #fff;
 }
@@ -46,7 +50,7 @@ body {
 
 @font-face {
     font-family: 'tariselLombardicBlack';
-    src: url('/fonts/TariselLombardic-Black.otf') format('opentype');
+    src: url('/fonts/TariselLombardic-Black.otf.woff2') format('woff2');
     font-weight: 100;
     font-style: normal;
 }
