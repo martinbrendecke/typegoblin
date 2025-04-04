@@ -1,0 +1,496 @@
+/*      General      */
+
+*::before, *::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html {
+    font-size: 20px;
+}
+
+body {
+    padding: 4vw;
+    background: #000;
+    color: #fff;
+}
+
+.white {
+    fill: #fff;
+}
+
+/*      typefaces      */
+
+@font-face {
+    font-family: 'tariselTextReg';
+    src: url('/fonts/Tarisel_Text-240830_86.otf') format('opentype');
+    font-weight: 100;
+    font-style: normal;
+    font-feature-settings: 'calt';
+}
+
+@font-face {
+    font-family: 'tariselTextBold';
+    src: url('/fonts/Tarisel_Text-240830_120.otf') format('opentype');
+    font-weight: 100;
+    font-style: normal;
+    font-feature-settings: 'calt';
+}
+
+@font-face {
+    font-family: 'tariselHybridReg';
+    src: url('/fonts/TariselHybrid-24121786.otf') format('opentype');
+    font-weight: 100;
+    font-style: normal;
+    font-feature-settings: 'calt';
+}
+
+@font-face {
+    font-family: 'tariselLombardicBlack';
+    src: url('/fonts/TariselLombardic-Black.otf') format('opentype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+
+/*      typography      */
+
+a {
+	font-family: tariselTextReg, sans-serif;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;    
+    line-height: 28px;
+    margin: 0 0 0 0;
+    width: max-content;
+}
+
+.gray {
+    color: #888;
+}
+
+a:hover {
+/*    color: #ffd400;*/
+    color: #888;
+}
+
+a:active {
+    color: #000;
+}
+
+h1 {
+	font-family: tariselHybridReg, serif;
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 100;
+    letter-spacing: -.04vw;
+    margin: 0 0 40px 0;
+    text-justify: center;
+}
+
+h2 {
+    font-family: tariselLombardicBlack, serif;
+    line-height: 1;
+    font-weight: 100;
+    margin: 0 0 0 0;
+}
+
+h3 {
+	font-family: tariselLombardicBlack, serif;
+    font-size: 54px;
+    line-height: 1.25;
+    font-weight: 100;
+    margin: 0;
+    text-align: justify;
+    text-justify: auto;
+    text-align-last: center;
+}
+
+p {
+	font-family: tariselTextReg, sans-serif;
+    font-size: 20px;    
+    line-height: 1.4;
+    font-weight: 100;
+    margin: 0;
+    max-width: 640px;
+    text-align: left;
+}
+
+b {
+	font-family: tariselTextBold, sans-serif;
+    font-weight: 100;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+
+/*      buttons      */
+
+.button{
+    border: 2px solid;
+    border-color: #fff;
+    line-height: 3;
+    padding: 0 30px;
+	font-family: tariselTextBold, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    border-radius: 30px;
+    background-color: #000;
+    margin: 40px 0 40px;
+}
+
+.button:hover{
+    color: #888;
+    border-color: #888;
+    cursor: pointer;
+}
+
+.button:active {
+    color: #000;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+/*      stylistic sets      */
+
+.ss01 {
+  font-feature-settings: 'ss01';
+}
+
+.ss02 {
+  font-feature-settings: 'ss02';
+}
+
+.ss03 {
+  font-feature-settings: 'ss03';
+}
+
+.ss04 {
+  font-feature-settings: 'ss04';
+}
+
+.ss05 {
+  font-feature-settings: 'ss05';
+}
+
+.ss06 {
+  font-feature-settings: 'ss06';
+}
+
+.ss07 {
+  font-feature-settings: 'ss07';
+}
+
+.ss08 {
+  font-feature-settings: 'ss08';
+}
+
+.ss08 {
+  font-feature-settings: 'ss08';
+}
+
+.ss09 {
+  font-feature-settings: 'ss09';
+}
+
+.ss10 {
+  font-feature-settings: 'ss10';
+}
+
+.ss11 {
+  font-feature-settings: 'ss11';
+}
+
+.ss12 {
+  font-feature-settings: 'ss12';
+}
+
+.ss13 {
+  font-feature-settings: 'ss13';
+}
+
+.ss14 {
+  font-feature-settings: 'ss14';
+}
+
+.dlig {
+  font-feature-settings: 'dlig';    
+}
+
+/*      header      */
+
+/*
+.header {
+    display: flex;
+    justify-content: center;
+}  
+
+.navbar {
+    position: relative;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+*/
+
+
+
+/*      flex      */
+
+.grid {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/*      title       */
+
+.title {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 4vw;
+}
+
+.titleTarisel {
+    font-size: 13.9vw;
+    animation: title1 4s linear infinite;
+}
+
+@keyframes title1 {
+    from {font-feature-settings: normal;}
+    to {font-feature-settings: 'ss01', 'ss05', 'ss07', 'ss10', 'ss11';}
+}
+
+.titleLomb {
+    font-size: 9.7vw;
+    animation: title2 3s linear infinite;
+}
+
+@keyframes title2 {
+    from {font-feature-settings: normal;}
+    to {font-feature-settings:  'ss03', 'ss05', 'ss12';}
+}
+
+.titleGobl {
+    font-size: 7.3vw;
+    line-height: 7.8vw;
+    animation: title3 2.5s linear infinite;
+}
+
+@keyframes title3 {
+    from {font-feature-settings: normal;}
+    to {font-feature-settings: 'ss01', 'ss04', 'ss06', 'ss07', 'ss13';}
+}
+
+.titleCosm {
+    font-size: 7.3vw;
+    line-height: 7.8vw;
+    animation: title4 2.75s linear infinite;
+}
+
+@keyframes title4 {
+    from {font-feature-settings: normal;}
+    to {font-feature-settings: 'ss01', 'ss03', 'ss04', 'ss10';}
+}
+
+.titleDisp {
+    font-size: 12.5vw;
+    animation: title5 4s linear infinite;
+}
+
+@keyframes title5 {
+    from {font-feature-settings: normal;}
+    to {font-feature-settings: 'ss03', 'ss04', 'ss05', 'ss06', 'ss10', 'ss12';}
+}
+
+.titleCaps {
+    font-size: 12.1vw;
+    animation: title6 3.5s linear infinite;
+}
+
+@keyframes title6 {
+    from {font-feature-settings: normal;}
+    to {font-feature-settings: 'ss01', 'ss04', 'ss05', 'ss09', 'ss10', 'ss11';}
+}
+
+
+/*      Mr. T      */
+
+.T-bone {
+    font-feature-settings: normal;
+    animation: Tswap 3.3s linear infinite;
+}
+
+.bigT {
+    font-size: 89vw;
+}
+
+@media (min-width: 1000px){
+    .bigT {
+        font-size: 890px;
+    }
+}
+
+@keyframes Tswap {
+    from {font-feature-settings: normal;}
+    to {font-feature-settings: "ss01";}
+}
+
+/*      doubles      */
+
+.doubles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14.5vw;
+    text-align: center;
+    font-feature-settings: 'ss02';
+    animation: dblswap 2.7s linear infinite;
+}
+
+@media (min-width: 1000px){
+    .doubles {
+        font-size: 7vw;
+    }
+}
+
+@keyframes dblswap {
+    from {font-feature-settings: normal;}
+    to {font-feature-settings: "ss02";}
+}
+
+
+/*      pricing      */
+
+.licensing {
+    font-size: 10.2vw;
+    animation: licensing 3.25s linear infinite;
+}
+
+@keyframes licensing {
+    from {font-feature-settings: normal;}
+    to {font-feature-settings: 'ss01','ss04', 'ss07', 'ss12';}
+}
+
+.price {
+    font-size: 33vw;
+    line-height: 36vw;
+}
+
+
+/*      trial     */
+
+.trial {
+    font-size: 60vw;
+    animation: trial 2s linear infinite;
+}
+
+@keyframes trial {
+    from {font-feature-settings: "ss04";}
+    to {font-feature-settings: "ss01";}
+}
+
+
+/*      question disco     */
+
+.question {
+    font-size: 60vw;
+    font-feature-settings: normal;
+    animation: question 2s linear infinite;
+}
+
+@keyframes question {
+    from {font-feature-settings: normal;}
+    to {font-feature-settings: "ss12";}
+}
+
+
+/*      student disco     */
+
+.student1{
+    font-size: 13vw;
+    animation: student1 3.8s linear infinite;
+}
+
+@keyframes student1 {
+    from {font-feature-settings: normal;}
+    to {font-feature-settings: 'ss04', 'ss06', 'ss07', 'ss09', 'ss10';}
+}
+
+.student2{
+    font-size: 10.7vw;
+    animation: student2 3.2s linear infinite;
+}
+
+@keyframes student2 {
+    from {font-feature-settings: normal;}
+    to {font-feature-settings: 'ss01', 'ss03', 'ss07', 'ss10', 'ss12';}
+}
+
+.student3 {
+    font-size: 5.4vw;
+    line-height: 6.8vw;
+    animation: student3 2.5s linear infinite;
+}
+
+@keyframes student3 {
+    from {font-feature-settings: normal;}
+    to {font-feature-settings: 'ss01', 'ss03', 'ss04', 'ss05';}
+}
+
+/*      footer      */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+
+/*  spacing and margins  */
+
+.margin-bottom {
+    margin-bottom: 40px;
+}
+
+.margin-top {
+    margin-top: 40px;
+}
+
+
+/*  kerning pairs  */
+
+.T_y {
+    letter-spacing: -2.0px;
+}
+
+.T_a {
+    letter-spacing: -1.9px;
+}
+
+.Y_o {
+    letter-spacing: -1.6px;
+}
+
+.y_p {
+    letter-spacing: -px;
+}
+
+
+
+
