@@ -1,0 +1,284 @@
+Batch Generate:
+***************
+
+    Batch Generated Web Fonts:
+    **************************
+
+    Decompose:
+    **********
+
+        Tarisel Lombardic Black
+
+    Remove Overlap:
+    ***************
+
+        Tarisel Lombardic Black
+
+    Generate:
+    *********
+
+        TariselLombardic-Black.ufo
+        **************************
+
+
+            source: /Users/martin/Documents/10 EsadType/30 Tarisel/10 Lombardic/20 UFO/TariselLombardic_20250323/TariselLombardic-Black.ufo
+
+            Generate otf-woff2
+            ******************
+
+                path: /Users/martin/Documents/1 Type Goblin/20 Site/typegoblin/fonts/Web/temp_0_TariselLombardic-Black.otf)
+                    --------------------
+                    
+                    makeotf Report
+                    
+                    makeotf [Note] setting the USE_TYPO_METRICS OS/2 fsSelection bit 7 from fontinfo keyword.
+                    makeotf [Note] setting the WEIGHT_WIDTH_SLOPE_ONLY OS/2 fsSelection bit 8 from fontinfo keyword.
+                    makeotf [Note] setting the OBLIQUE OS/2 fsSelection bit 9 from fontinfo keyword.
+                    makeotfexe [WARNING] unhinted <.notdef>
+                    makeotfexe [WARNING] unhinted <notdef>
+                    makeotfexe [WARNING] unhinted <A>
+                    makeotfexe [WARNING] unhinted <A.01>
+                    makeotfexe [WARNING] unhinted <B>
+                    makeotfexe [WARNING] unhinted <C>
+                    makeotfexe [WARNING] unhinted <C.01>
+                    makeotfexe [WARNING] unhinted <D>
+                    makeotfexe [WARNING] unhinted <D.01>
+                    makeotfexe [WARNING] unhinted <D.02>
+                    makeotfexe [WARNING] unhinted <E>
+                    makeotfexe [WARNING] unhinted <E.01>
+                    makeotfexe [WARNING] unhinted <E.02>
+                    makeotfexe [WARNING] unhinted <F>
+                    makeotfexe [WARNING] unhinted <G>
+                    makeotfexe [WARNING] unhinted <G.01>
+                    makeotfexe [WARNING] unhinted <G.02>
+                    makeotfexe [WARNING] unhinted <H>
+                    makeotfexe [WARNING] unhinted <H.01>
+                    makeotfexe [WARNING] unhinted <I>
+                    makeotfexe [WARNING] unhinted <I.01>
+                    makeotfexe [WARNING] unhinted <I.02>
+                    makeotfexe [WARNING] unhinted <I.03>
+                    makeotfexe [WARNING] unhinted <J>
+                    makeotfexe [WARNING] unhinted <K>
+                    makeotfexe [WARNING] unhinted <L>
+                    makeotfexe [WARNING] unhinted <M>
+                    makeotfexe [WARNING] unhinted <M.01>
+                    makeotfexe [WARNING] unhinted <M.05>
+                    makeotfexe [WARNING] unhinted <M.06>
+                    makeotfexe [WARNING] unhinted <M.07>
+                    makeotfexe [WARNING] unhinted <N>
+                    makeotfexe [WARNING] unhinted <N.01>
+                    makeotfexe [WARNING] unhinted <N.02>
+                    makeotfexe [WARNING] unhinted <O>
+                    makeotfexe [WARNING] unhinted <P>
+                    makeotfexe [WARNING] unhinted <Q>
+                    makeotfexe [WARNING] unhinted <R>
+                    makeotfexe [WARNING] unhinted <S>
+                    makeotfexe [WARNING] unhinted <S.02>
+                    makeotfexe [WARNING] unhinted <T>
+                    makeotfexe [WARNING] unhinted <T.01>
+                    makeotfexe [WARNING] unhinted <T.02>
+                    makeotfexe [WARNING] unhinted <U>
+                    makeotfexe [WARNING] unhinted <U.01>
+                    makeotfexe [WARNING] unhinted <V>
+                    makeotfexe [WARNING] unhinted <W>
+                    makeotfexe [WARNING] unhinted <W.01>
+                    makeotfexe [WARNING] unhinted <X>
+                    makeotfexe [WARNING] unhinted <X.01>
+                    makeotfexe [WARNING] unhinted <Y>
+                    makeotfexe [WARNING] unhinted <Y.01>
+                    makeotfexe [WARNING] unhinted <Z>
+                    makeotfexe [WARNING] unhinted <zero>
+                    makeotfexe [WARNING] unhinted <one>
+                    makeotfexe [WARNING] unhinted <two>
+                    makeotfexe [WARNING] unhinted <two.01>
+                    makeotfexe [WARNING] unhinted <three>
+                    makeotfexe [WARNING] unhinted <four>
+                    makeotfexe [WARNING] unhinted <five>
+                    makeotfexe [WARNING] unhinted <six>
+                    makeotfexe [WARNING] unhinted <seven>
+                    makeotfexe [WARNING] unhinted <eight>
+                    makeotfexe [WARNING] unhinted <nine>
+                    makeotfexe [WARNING] unhinted <period>
+                    makeotfexe [WARNING] unhinted <colon>
+                    makeotfexe [WARNING] unhinted <bullet>
+                    makeotfexe [WARNING] unhinted <periodcentered>
+                    makeotfexe [WARNING] unhinted <ellipsis>
+                    makeotfexe [WARNING] unhinted <period.02>
+                    makeotfexe [WARNING] unhinted <colon.02>
+                    makeotfexe [WARNING] unhinted <bullet.02>
+                    makeotfexe [WARNING] unhinted <periodcentered.02>
+                    makeotfexe [WARNING] unhinted <ellipsis.02>
+                    makeotfexe [WARNING] unhinted <comma>
+                    makeotfexe [WARNING] unhinted <semicolon>
+                    makeotfexe [WARNING] unhinted <comma.02>
+                    makeotfexe [WARNING] unhinted <semicolon.02>
+                    makeotfexe [WARNING] unhinted <exclam>
+                    makeotfexe [WARNING] unhinted <question>
+                    makeotfexe [WARNING] unhinted <exclamdown>
+                    makeotfexe [WARNING] unhinted <questiondown>
+                    makeotfexe [WARNING] unhinted <exclam.02>
+                    makeotfexe [WARNING] unhinted <question.02>
+                    makeotfexe [WARNING] unhinted <exclamdown.02>
+                    makeotfexe [WARNING] unhinted <questiondown.02>
+                    makeotfexe [WARNING] unhinted <quoteright>
+                    makeotfexe [WARNING] unhinted <quoteleft>
+                    makeotfexe [WARNING] unhinted <quotedblright>
+                    makeotfexe [WARNING] unhinted <quotedblleft>
+                    makeotfexe [WARNING] unhinted <quoteright.02>
+                    makeotfexe [WARNING] unhinted <quoteleft.02>
+                    makeotfexe [WARNING] unhinted <quotedblright.02>
+                    makeotfexe [WARNING] unhinted <quotedblleft.02>
+                    makeotfexe [WARNING] unhinted <quotesingle>
+                    makeotfexe [WARNING] unhinted <quotedbl>
+                    makeotfexe [WARNING] unhinted <guilsinglleft>
+                    makeotfexe [WARNING] unhinted <guilsinglright>
+                    makeotfexe [WARNING] unhinted <guillemetleft>
+                    makeotfexe [WARNING] unhinted <guillemetright>
+                    makeotfexe [WARNING] unhinted <parenleft>
+                    makeotfexe [WARNING] unhinted <parenright>
+                    makeotfexe [WARNING] unhinted <bracketleft>
+                    makeotfexe [WARNING] unhinted <bracketright>
+                    makeotfexe [WARNING] unhinted <braceleft>
+                    makeotfexe [WARNING] unhinted <braceright>
+                    makeotfexe [WARNING] unhinted <hyphen>
+                    makeotfexe [WARNING] unhinted <endash>
+                    makeotfexe [WARNING] unhinted <emdash>
+                    makeotfexe [WARNING] unhinted <underscore>
+                    makeotfexe [WARNING] unhinted <slash>
+                    makeotfexe [WARNING] unhinted <backslash>
+                    makeotfexe [WARNING] unhinted <bar>
+                    makeotfexe [WARNING] unhinted <numbersign>
+                    makeotfexe [WARNING] unhinted <percent>
+                    makeotfexe [WARNING] unhinted <asterisk>
+                    makeotfexe [WARNING] unhinted <degree>
+                    makeotfexe [WARNING] unhinted <dagger>
+                    makeotfexe [WARNING] unhinted <daggerdbl>
+                    makeotfexe [WARNING] unhinted <dagger.02>
+                    makeotfexe [WARNING] unhinted <daggerdbl.02>
+                    makeotfexe [WARNING] unhinted <daggerdbl.01>
+                    makeotfexe [WARNING] unhinted <plus>
+                    makeotfexe [WARNING] unhinted <plus.02>
+                    makeotfexe [WARNING] unhinted <minus>
+                    makeotfexe [WARNING] unhinted <multiply>
+                    makeotfexe [WARNING] unhinted <multiply.02>
+                    makeotfexe [WARNING] unhinted <divide>
+                    makeotfexe [WARNING] unhinted <equal>
+                    makeotfexe [WARNING] unhinted <dollar>
+                    makeotfexe [WARNING] unhinted <cent>
+                    makeotfexe [WARNING] unhinted <Euro>
+                    makeotfexe [WARNING] unhinted <sterling>
+                    makeotfexe [WARNING] unhinted <yen>
+                    makeotfexe [WARNING] unhinted <paragraph>
+                    makeotfexe [WARNING] unhinted <section>
+                    makeotfexe [WARNING] unhinted <numero>
+                    makeotfexe [WARNING] unhinted <N_N>
+                    makeotfexe [WARNING] unhinted <acute>
+                    makeotfexe [WARNING] unhinted <grave>
+                    makeotfexe [WARNING] unhinted <circumflex>
+                    makeotfexe [WARNING] unhinted <dieresis>
+                    makeotfexe [WARNING] unhinted <tilde>
+                    makeotfexe [WARNING] unhinted <macron>
+                    makeotfexe [WARNING] unhinted <Aacute>
+                    makeotfexe [WARNING] unhinted <Agrave>
+                    makeotfexe [WARNING] unhinted <Acircumflex>
+                    makeotfexe [WARNING] unhinted <Atilde>
+                    makeotfexe [WARNING] unhinted <Amacron>
+                    makeotfexe [WARNING] unhinted <Adieresis>
+                    makeotfexe [WARNING] unhinted <Aring>
+                    makeotfexe [WARNING] unhinted <Aacute.01>
+                    makeotfexe [WARNING] unhinted <Agrave.01>
+                    makeotfexe [WARNING] unhinted <Acircumflex.01>
+                    makeotfexe [WARNING] unhinted <Amacron.01>
+                    makeotfexe [WARNING] unhinted <Adieresis.01>
+                    makeotfexe [WARNING] unhinted <Atilde.01>
+                    makeotfexe [WARNING] unhinted <Aring.01>
+                    makeotfexe [WARNING] unhinted <Ccedilla>
+                    makeotfexe [WARNING] unhinted <Ccedilla.01>
+                    makeotfexe [WARNING] unhinted <Eacute>
+                    makeotfexe [WARNING] unhinted <Egrave>
+                    makeotfexe [WARNING] unhinted <Ecircumflex>
+                    makeotfexe [WARNING] unhinted <Edieresis>
+                    makeotfexe [WARNING] unhinted <Emacron>
+                    makeotfexe [WARNING] unhinted <Iacute>
+                    makeotfexe [WARNING] unhinted <Igrave>
+                    makeotfexe [WARNING] unhinted <Icircumflex>
+                    makeotfexe [WARNING] unhinted <Idieresis>
+                    makeotfexe [WARNING] unhinted <Imacron>
+                    makeotfexe [WARNING] unhinted <Iacute.01>
+                    makeotfexe [WARNING] unhinted <Igrave.01>
+                    makeotfexe [WARNING] unhinted <Icircumflex.01>
+                    makeotfexe [WARNING] unhinted <Idieresis.01>
+                    makeotfexe [WARNING] unhinted <Imacron.01>
+                    makeotfexe [WARNING] unhinted <Iacute.02>
+                    makeotfexe [WARNING] unhinted <Igrave.02>
+                    makeotfexe [WARNING] unhinted <Icircumflex.02>
+                    makeotfexe [WARNING] unhinted <Idieresis.02>
+                    makeotfexe [WARNING] unhinted <Imacron.02>
+                    makeotfexe [WARNING] unhinted <Iacute.03>
+                    makeotfexe [WARNING] unhinted <Igrave.03>
+                    makeotfexe [WARNING] unhinted <Icircumflex.03>
+                    makeotfexe [WARNING] unhinted <Idieresis.03>
+                    makeotfexe [WARNING] unhinted <Imacron.03>
+                    makeotfexe [WARNING] unhinted <Ntilde>
+                    makeotfexe [WARNING] unhinted <Ntilde.01>
+                    makeotfexe [WARNING] unhinted <Ntilde.02>
+                    makeotfexe [WARNING] unhinted <Oacute>
+                    makeotfexe [WARNING] unhinted <Ograve>
+                    makeotfexe [WARNING] unhinted <Ocircumflex>
+                    makeotfexe [WARNING] unhinted <Odieresis>
+                    makeotfexe [WARNING] unhinted <Otilde>
+                    makeotfexe [WARNING] unhinted <Omacron>
+                    makeotfexe [WARNING] unhinted <Oslash>
+                    makeotfexe [WARNING] unhinted <Uacute>
+                    makeotfexe [WARNING] unhinted <Ugrave>
+                    makeotfexe [WARNING] unhinted <Ucircumflex>
+                    makeotfexe [WARNING] unhinted <Udieresis>
+                    makeotfexe [WARNING] unhinted <Umacron>
+                    makeotfexe [WARNING] unhinted <Uacute.01>
+                    makeotfexe [WARNING] unhinted <Ugrave.01>
+                    makeotfexe [WARNING] unhinted <Ucircumflex.01>
+                    makeotfexe [WARNING] unhinted <Udieresis.01>
+                    makeotfexe [WARNING] unhinted <Umacron.01>
+                    makeotfexe [WARNING] unhinted <AE>
+                    makeotfexe [WARNING] unhinted <AE.01>
+                    makeotfexe [WARNING] unhinted <AE.02>
+                    makeotfexe [WARNING] unhinted <OE>
+                    makeotfexe [WARNING] unhinted <OE.01>
+                    makeotfexe [WARNING] unhinted <OE.02>
+                    Built release mode font '/privatetemp_0_TariselLombardic-Black.otf' Revision 1.001
+                    
+                    --------------------
+
+            Generate ttf
+            ************
+
+                path: /Users/martin/Documents/1 Type Goblin/20 Site/typegoblin/fonts/Web/temp_0_TariselLombardic-Black.ttf)
+                Unknown script tag `-n'
+                
+                    --------------------
+                    
+                    makeotf Report
+                    
+                    makeotf [Note] setting the USE_TYPO_METRICS OS/2 fsSelection bit 7 from fontinfo keyword.
+                    makeotf [Note] setting the WEIGHT_WIDTH_SLOPE_ONLY OS/2 fsSelection bit 8 from fontinfo keyword.
+                    makeotf [Note] setting the OBLIQUE OS/2 fsSelection bit 9 from fontinfo keyword.
+                    Built release mode font '/privatetemp_0_TariselLombardic-Black.ttf' Revision 1.001
+                    
+                    --------------------
+
+            Generate ttf-woff2
+            ******************
+
+                path: /Users/martin/Documents/1 Type Goblin/20 Site/typegoblin/fonts/Web/temp_0_TariselLombardic-Black.ttf)
+                Unknown script tag `-n'
+                
+                    --------------------
+                    
+                    makeotf Report
+                    
+                    makeotf [Note] setting the USE_TYPO_METRICS OS/2 fsSelection bit 7 from fontinfo keyword.
+                    makeotf [Note] setting the WEIGHT_WIDTH_SLOPE_ONLY OS/2 fsSelection bit 8 from fontinfo keyword.
+                    makeotf [Note] setting the OBLIQUE OS/2 fsSelection bit 9 from fontinfo keyword.
+                    Built release mode font '/privatetemp_0_TariselLombardic-Black.ttf' Revision 1.001
+                    
+                    --------------------

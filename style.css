@@ -50,7 +50,9 @@ html, body {
 
 @font-face {
     font-family: 'tariselLombardicBlack';
-    src: url('/fonts/TariselLombardic-Black.otf.woff2') format('woff2');
+    src: url('/fonts/TariselLombardic-Black_otf.woff2') format('woff2'),
+    src: url('/fonts/TariselLombardic-Black_ttf.woff2') format('truetype'),
+    src: url('/fonts/TariselLombardic-Black.ttf') format('truetype'),
     font-weight: 100;
     font-style: normal;
 }
