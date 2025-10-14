@@ -285,7 +285,7 @@ b {
 
 @keyframes title1 {
     from {font-feature-settings: normal;}
-    to {font-feature-settings: 'ss01', 'ss05', 'ss07', 'ss09';}
+    to {font-feature-settings: 'ss01', 'ss05', 'ss07', 'ss09', 'ss13';}
 }
 
 .titleLomb {
@@ -317,7 +317,7 @@ b {
 
 @keyframes title4 {
     from {font-feature-settings: normal;}
-    to {font-feature-settings: 'ss01', 'ss03', 'ss04', 'ss10';}
+    to {font-feature-settings: 'ss01', 'ss03', 'ss04', 'ss10', 'ss13';}
 }
 
 .titleDisp {
@@ -327,7 +327,7 @@ b {
 
 @keyframes title5 {
     from {font-feature-settings: normal;}
-    to {font-feature-settings: 'ss03', 'ss04', 'ss05', 'ss06', 'ss10', 'ss12', 'ss14';}
+    to {font-feature-settings: 'ss03', 'ss04', 'ss05', 'ss06', 'ss10', 'ss12', 'ss13', 'ss14';}
 }
 
 .titleCaps {
@@ -337,7 +337,7 @@ b {
 
 @keyframes title6 {
     from {font-feature-settings: normal;}
-    to {font-feature-settings: 'ss01', 'ss04', 'ss05', 'ss09', 'ss10', 'ss11';}
+    to {font-feature-settings: 'ss01', 'ss04', 'ss05', 'ss09', 'ss10', 'ss11', 'ss13';}
 }
 
 
@@ -449,7 +449,7 @@ b {
 
 @keyframes student1 {
     from {font-feature-settings: normal;}
-    to {font-feature-settings: 'ss01', 'ss03', 'ss04', 'ss06', 'ss07', 'ss09', 'ss10';}
+    to {font-feature-settings: 'ss01', 'ss03', 'ss04', 'ss06', 'ss07', 'ss09', 'ss10', 'ss13';}
 }
 
 .student2{
@@ -459,7 +459,7 @@ b {
 
 @keyframes student2 {
     from {font-feature-settings: normal;}
-    to {font-feature-settings: 'ss01', 'ss03', 'ss07', 'ss10', 'ss14';}
+    to {font-feature-settings: 'ss01', 'ss03', 'ss07', 'ss10', 'ss13', 'ss14';}
 }
 
 .student3 {
