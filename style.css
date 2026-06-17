@@ -1,8 +1,10 @@
 /*      General      */
-
-*::before, *::after {
+*,
+*::before,
+*::after {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
+
 
 html {
     font-size: 20px;
@@ -15,48 +17,118 @@ body {
 }
 
 .white {
-    fill: #00FF00;
+    color: #fff;
 }
 
 /*      typefaces      */
 
 @font-face {
-    font-family: 'tariselTextReg';
-    src: url('/fonts/Tarisel_Text-240830_86.otf') format('opentype');
-    font-weight: 100;
+    font-family: 'TextThin';
+    src: url('/fonts/TariselText-260518Thin.woff2') format('woff2');
+    font-weight: 0;
     font-style: normal;
     font-feature-settings: 'calt';
 }
 
 @font-face {
-    font-family: 'tariselTextBold';
-    src: url('/fonts/Tarisel_Text-240830_120.otf') format('opentype');
-    font-weight: 100;
+    font-family: 'TextLight';
+    src: url('/fonts/TariselText-260518Light.woff2') format('woff2');
+    font-weight: 0;
     font-style: normal;
     font-feature-settings: 'calt';
 }
 
 @font-face {
-    font-family: 'tariselHybridReg';
+    font-family: 'TextRegular';
+    src: url('/fonts/TariselText-260518Regular.woff2') format('woff2');
+    font-weight: 0;
+    font-style: normal;
+    font-feature-settings: 'calt';
+}
+
+@font-face {
+    font-family: 'TextMedium';
+    src: url('/fonts/TariselText-260518Medium.woff2') format('opentype');
+    font-weight: 0;
+    font-style: normal;
+    font-feature-settings: 'calt';
+}
+
+@font-face {
+    font-family: 'HybridRegular';
     src: url('/fonts/TariselHybrid-24121786.otf') format('opentype');
-    font-weight: 100;
+    font-weight: 0;
     font-style: normal;
     font-feature-settings: 'calt';
 }
 
 @font-face {
-    font-family: 'tariselLombardicBlack';
-    src: url('/fonts/TariselLombardic-Black_otf.woff2') format('woff2');
+    font-family: 'Tarisel';
+    src: url('/fonts/TariselVariable.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'TariselLight';
+    src: url('/fonts/Tarisel-Light.woff2') format('woff2');
+    font-weight: 0;
+}
+
+@font-face {
+    font-family: 'TariselRegular';
+    src: url('/fonts/Tarisel-Regular.woff2') format('woff2');
+    font-weight: 0;
+    font-style: none;
+}
+
+@font-face {
+    font-family: 'TariselMedium';
+    src: url('/fonts/Tarisel-Medium.woff2') format('woff2');
+    font-weight: 0;
+    font-style: none;
+}
+
+@font-face {
+    font-family: 'TariselBold';
+    src: url('/fonts/Tarisel-Bold.woff2') format('woff2');
+    font-weight: 0;
+    font-style: none;
+}
+
+@font-face {
+    font-family: 'TariselBlack';
+    src: url('/fonts/Tarisel-Black.woff2') format('woff2');
+    font-weight: 0;
+    font-style: none;
+}
+
+@font-face {
+    font-family: 'Fustinberg';
+    src: url('/fonts/Fustinberg_Quadrata.woff2') format('woff2');
 /*    font-weight: normal;*/
-    font-weight: 100;
+    font-weight: 0;
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Gnarthex';
+    src: url('/fonts/Gnarthex_v1-0.woff2') format('woff2');
+/*    font-weight: normal;*/
+    font-weight: 0;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Psalicorne';
+    src: url('/fonts/Psalicorne_v1-0.woff2') format('woff2');
+/*    font-weight: normal;*/
+    font-weight: 0;
+    font-style: normal;
+}
 
 /*      typography      */
 
 a {
-	font-family: tariselTextReg, sans-serif;
+	font-family: TextRegular, serif;
     text-decoration: none;
     color: #00FF00;
     font-size: 20px;    
@@ -65,21 +137,27 @@ a {
     width: max-content;
 }
 
-.gray {
-    color: #FFF;
-}
-
 a:hover {
 /*    color: #ffd400;*/
     color: #FFF;
+    cursor: pointer;
+/*    animation: blinker .1s step-end; */
 }
+
+
+@keyframes blinker {
+    0% {
+        opacity: 0;
+    }
+}
+
 
 a:active {
     color: #000;
 }
 
 h1 {
-	font-family: tariselHybridReg, serif;
+	font-family: HybridRegular, serif;
     font-size: 50px;
     line-height: 50px;
     font-weight: 100;
@@ -89,17 +167,17 @@ h1 {
 }
 
 h2 {
-    font-family: tariselLombardicBlack, serif;
+    font-family: TariselBlack, serif;
     line-height: 1;
-    font-weight: 100;
+    font-weight: 0;
     margin: 0 0 0 0;
 }
 
 h3 {
-	font-family: tariselLombardicBlack, serif;
+	font-family: TariselBlack, serif;
     font-size: 54px;
     line-height: 1.25;
-    font-weight: 100;
+    font-weight: 0;
     margin: 0;
     text-align: justify;
     text-justify: auto;
@@ -107,29 +185,37 @@ h3 {
 }
 
 h4 {
-	font-family: tariselHybridReg, serif;
+	font-family: HybridRegular, serif;
     font-size: 34px;
     line-height: 40px;
-    font-weight: 100;
+    font-weight: 0;
     text-align: center;
     margin: 0 0 0 0;
     max-width: 640px;
 
 }
 
+
+p1 {
+    font-family: TariselBold, serif;
+    line-height: 1;
+    font-weight: 0;
+    margin: 0 0 0 0;
+}
+
 p {
-	font-family: tariselTextReg, sans-serif;
+	font-family: TextRegular, serif;
     font-size: 20px;    
     line-height: 1.4;
-    font-weight: 100;
+    font-weight: 0;
     margin: 0;
     max-width: 640px;
     text-align: left;
 }
 
 b {
-	font-family: tariselTextBold, sans-serif;
-    font-weight: 100;
+	font-family: TextMedium, serif;
+    font-weight: 0;
 }
 
 .nowrap {
@@ -140,15 +226,16 @@ b {
 /*      buttons      */
 
 .button{
+    position: relative;
     border: 2px solid;
     border-color: #00FF00;
     line-height: 3;
-    padding: 0 30px;
-	font-family: tariselTextBold, sans-serif;
+    padding: 0px 30px 4px;
+	font-family: TextMedium, serif;
     font-size: 20px;
     text-align: center;
     color: #00FF00;
-    border-radius: 30px;
+    border-radius: 32px;
     background-color: #000;
     margin: 40px 0 40px;
 }
@@ -161,74 +248,120 @@ b {
 
 .button:active {
     color: #000;
+    background-color: #000;
+    border-color: #000;
+}
+
+/* old butt
+.button:active {
+    color: #000;
     background-color: #00FF00;
     border-color: #00FF00;
 }
+*/
+
 
 /*      stylistic sets      */
 
 .ss01 {
-  font-feature-settings: 'ss01';
+  font-feature-settings: 'ss01' 1;
 }
 
 .ss02 {
-  font-feature-settings: 'ss02';
+  font-feature-settings: 'ss02' 1;
 }
 
 .ss03 {
-  font-feature-settings: 'ss03';
+  font-feature-settings: 'ss03' 1;
 }
 
 .ss04 {
-  font-feature-settings: 'ss04';
+  font-feature-settings: 'ss04' 1;
 }
 
 .ss05 {
-  font-feature-settings: 'ss05';
+  font-feature-settings: 'ss05' 1;
 }
 
 .ss06 {
-  font-feature-settings: 'ss06';
+  font-feature-settings: 'ss06' 1;
 }
 
 .ss07 {
-  font-feature-settings: 'ss07';
+  font-feature-settings: 'ss07' 1;
 }
 
 .ss08 {
-  font-feature-settings: 'ss08';
-}
-
-.ss09 {
-  font-feature-settings: 'ss09';
-}
-
-.ss10 {
-  font-feature-settings: 'ss10';
-}
-
-.ss11 {
-  font-feature-settings: 'ss11';
-}
-
-.ss12 {
-  font-feature-settings: 'ss12';
-}
-
-.ss13 {
-  font-feature-settings: 'ss13';
-}
-
-.ss14 {
-  font-feature-settings: 'ss14';
-}
-
-.ss15 {
-  font-feature-settings: 'ss15';
+  font-feature-settings: 'ss08' 1;
 }
 
 .dlig {
-  font-feature-settings: 'dlig';    
+  font-feature-settings: 'dlig' 1;    
+}
+
+.calt {
+  font-feature-settings: 'calt' 1;    
+}
+
+.rlig {
+  font-feature-settings: 'rlig' 1;    
+}
+
+.UC {
+    text-transform: uppercase;
+}
+
+
+/*      index      */
+
+.indexTarisel {
+    font-family: TariselBold;
+    font-size: 12vw;
+    line-height: 100%;
+}
+
+.indexTarisel:hover{
+    font-feature-settings: "ss03" 1, "ss04" 1, "ss01" 1;
+}
+
+.indexFusti {
+    font-family: Fustinberg;
+    font-size: 14vw;
+    line-height: 111%;
+}
+
+.indexFusti:hover{
+  -webkit-font-feature-settings: "ss01" 1;
+  -moz-font-feature-settings:    "ss01" 1;
+  -ms-font-feature-settings:     "ss01" 1;
+  font-feature-settings:         "ss01" 1;
+}
+
+.indexGnar {
+    font-family: Gnarthex;
+    font-size: 14vw;
+    line-height: 106%;
+    width: 104%;
+}
+
+.indexGnar:hover{
+  -webkit-font-feature-settings: "ss01" 1;
+  -moz-font-feature-settings:    "ss01" 1;
+  -ms-font-feature-settings:     "ss01" 1;
+  font-feature-settings:         "ss01" 1;
+}
+
+.indexPsali {
+    font-family: Psalicorne;
+    font-size: 14vw;
+    line-height: 106%;
+}
+
+.indexPsali:hover{
+  -webkit-font-feature-settings: "ss01" 1;
+  -moz-font-feature-settings:    "ss01" 1;
+  -ms-font-feature-settings:     "ss01" 1;
+  font-feature-settings:         "ss01" 1;
 }
 
 /*      header      */
@@ -268,76 +401,95 @@ b {
     text-align: center;
 }
 
-/*      title       */
-
-.title {
+.flex-left {
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin: 0 0 4vw;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center;
 }
 
-.titleTarisel {
-    font-size: 13.9vw;
-    animation: title1 4s linear infinite;
+
+/*      Input      */
+
+textarea {
+    resize: none;
+    field-sizing: content;
+    overflow: hidden;
+    font: inherit;
+    appearance: none;
+    box-sizing: border-box;
+    margin: none;
+    padding: none;
+    border: none;
+    border-radius: 0;
+    width: 100%;
+    font-size: 100px;
+    background-color: black;
+    color: #00FF00;
+    caret-color: #fff;
+    caret-shape: block;
+    overflow-clip-margin: 40px;
+    min-height: auto;
 }
 
-@keyframes title1 {
-    from {font-feature-settings: normal;}
-    to {font-feature-settings: 'ss01', 'ss05', 'ss07', 'ss09', 'ss13';}
+.bigboy {
+    font-size: 140px;
 }
 
-.titleLomb {
-    font-size: 9.7vw;
-    animation: title2 3s linear infinite;
+textarea:focus {
+    outline: none;
 }
 
-@keyframes title2 {
-    from {font-feature-settings: normal;}
-    to {font-feature-settings: 'ss03', 'ss05', 'ss10', 'ss14';}
+.tarisel {
+    font-family: Tarisel, textRegular, serif;
 }
 
-.titleGobl {
-    font-size: 7.3vw;
-    line-height: 7.8vw;
-    animation: title3 2.5s linear infinite;
+.tariselLight {
+    font-family: TariselLight,
+textThin, serif;
+    line-height: 120%;
 }
 
-@keyframes title3 {
-    from {font-feature-settings: normal;}
-    to {font-feature-settings: 'ss01', 'ss04', 'ss06', 'ss07', 'ss11';}
+.tariselRegular {
+    font-family: TariselRegular,
+textLight, serif;
+    line-height: 120%;
 }
 
-.titleCosm {
-    font-size: 7.3vw;
-    line-height: 7.8vw;
-    animation: title4 2.75s linear infinite;
+.tariselMedium {
+    font-family: TariselMedium,
+textLight, serif;
+    line-height: 120%;
 }
 
-@keyframes title4 {
-    from {font-feature-settings: normal;}
-    to {font-feature-settings: 'ss01', 'ss03', 'ss04', 'ss10', 'ss13';}
+.tariselBold {
+    font-family: TariselBold,
+textRegular, serif;
+    line-height: 120%;
 }
 
-.titleDisp {
-    font-size: 12.5vw;
-    animation: title5 4s linear infinite;
+.tariselBlack {
+    font-family: TariselBlack,
+textMedium, serif;
+    line-height: 120%;
 }
 
-@keyframes title5 {
-    from {font-feature-settings: normal;}
-    to {font-feature-settings: 'ss03', 'ss04', 'ss05', 'ss06', 'ss10', 'ss12', 'ss13', 'ss14';}
+.fustinberg {
+    font-family: Fustinberg, textRegular, serif;
+    line-height: 120%;
 }
 
-.titleCaps {
-    font-size: 12.1vw;
-    animation: title6 3.5s linear infinite;
+.gnarthex {
+    font-family: Gnarthex, textRegular, serif;
+    line-height: 120%;
 }
 
-@keyframes title6 {
-    from {font-feature-settings: normal;}
-    to {font-feature-settings: 'ss01', 'ss04', 'ss05', 'ss09', 'ss10', 'ss11', 'ss13';}
+.psalicorne {
+    font-family: Psalicorne, textRegular, serif;
+    line-height: 100%;
+    font-size: 180px;
 }
 
 
@@ -345,26 +497,96 @@ b {
 
 .T-bone {
     font-feature-settings: normal;
-    animation: Tswap 3.3s linear infinite;
 }
 
-.bigT {
-    font-size: 89vw;
+.bigT1 {
+    position: relative;
+    transform: rotate(-2deg);
+    z-index: 2;
+    font-family: TariselBold;
+    font-size: 60vw;
 }
 
-@media (min-width: 1000px){
-    .bigT {
-        font-size: 890px;
+.bigT2 {
+    position: absolute;
+    transform: rotate(4deg);
+    font-family: TariselBold;
+    font-feature-settings: "ss02";
+    font-size: 60vw;
+    color: #fff;
+    animation: Tswap 2.5s infinite;
+}
+
+
+/*@media (min-width: 1000px){
+    .bigT .bigZ {
+        font-size: 600px;
     }
-}
+}*/
 
 @keyframes Tswap {
-    from {font-feature-settings: normal;}
-    to {font-feature-settings: "ss01";}
+  0% {
+    z-index: 1;
+  }
+  50% {
+    z-index: 1;
+  }
+  75% {
+    z-index: 3;
+  }
+  100% {
+    z-index: 3;
+  }
 }
 
-/*      doubles      */
+.tdc {
+    width: 20vw;
+    position: absolute;
+    top: 3vw;
+    right: 10vw;
+    z-index: 6;
+	animation: float3 6s ease-in-out infinite;
+}
 
+@keyframes float3 {
+	0% {
+		transform: translate(.2vw, -1vw) rotate(8deg);
+	}
+	50% {
+		transform: translate(-.1vw, 1vw) rotate(15deg);
+	}
+	100% {
+		transform: translate(.2vw, -1vw) rotate(8deg);
+	}
+}
+
+.gus {
+    width: 20vw;
+    position: absolute;
+    top: 21vw;
+    right: 12vw;
+    z-index: 5;
+    transform: rotate(-5deg);
+	animation: float4 7s ease-in-out infinite;
+}
+
+@keyframes float4 {
+	0% {
+		transform: translate(-.1vw, -1vw) rotate(7deg);
+	}
+	50% {
+		transform: translate(.2vw, 1vw) rotate(3deg);
+	}
+	100% {
+		transform: translate(-.1vw, -1vw) rotate(7deg);
+	}
+}
+
+
+
+/*      animation 1    */
+
+/*
 .doubles {
     display: flex;
     flex-direction: column;
@@ -385,41 +607,12 @@ b {
     from {font-feature-settings: normal;}
     to {font-feature-settings: "ss02";}
 }
+*/
 
 
-/*      pricing      */
+/*      animation 2    */
 
-.licensing {
-    font-size: 10.2vw;
-    animation: licensing 3.25s linear infinite;
-}
-
-@keyframes licensing {
-    from {font-feature-settings: normal;}
-    to {font-feature-settings: 'ss01','ss03', 'ss07', 'ss11', 'ss14';}
-}
-
-.price {
-    font-size: 33vw;
-    line-height: 36vw;
-}
-
-
-/*      trial     */
-
-.trial {
-    font-size: 50vw;
-    animation: trial 2s linear infinite;
-}
-
-@keyframes trial {
-    from {font-feature-settings: normal;}
-    to {font-feature-settings: "ss14", "ss14";}
-}
-
-
-/*      question disco     */
-
+/*
 .question {
     font-size: 92vw;
     font-feature-settings: normal;
@@ -428,7 +621,7 @@ b {
 
 @keyframes question {
     from {font-feature-settings: normal;}
-    to {font-feature-settings: "ss14";}
+    to {font-feature-settings: "'ss10', ss14";}
 }
 
 @media (min-width: 500px){
@@ -436,49 +629,15 @@ b {
         font-size: 60vw;
     }
 }
+*/
 
-
-
-
-/*      student disco     */
-
-.student1{
-    font-size: 13vw;
-    animation: student1 3.8s linear infinite;
-}
-
-@keyframes student1 {
-    from {font-feature-settings: normal;}
-    to {font-feature-settings: 'ss01', 'ss03', 'ss04', 'ss06', 'ss07', 'ss09', 'ss10', 'ss13';}
-}
-
-.student2{
-    font-size: 10.7vw;
-    animation: student2 3.2s linear infinite;
-}
-
-@keyframes student2 {
-    from {font-feature-settings: normal;}
-    to {font-feature-settings: 'ss01', 'ss03', 'ss07', 'ss10', 'ss13', 'ss14';}
-}
-
-.student3 {
-    font-size: 5vw;
-    line-height: 7vw;
-    animation: student3 2.5s linear infinite;
-}
-
-@keyframes student3 {
-    from {font-feature-settings: normal;}
-    to {font-feature-settings: 'ss01', 'ss03', 'ss04', 'ss05';}
-}
 
 /*      footer      */
 
 footer {
     display: flex;
     flex-direction: column;
-    margin: 20px 0;
+    margin: 40px 0;
 }
 
 
@@ -492,20 +651,28 @@ footer {
     margin-top: 40px;
 }
 
+.button-box {
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.button2 {
+    margin-left: 40px;
+}
+
+
 
 /*  kerning pairs  */
 
-.T_y {
-    letter-spacing: -2.0px;
+.y_p {
+    letter-spacing: -2px;
 }
 
-.T_a {
-    letter-spacing: -1.9px;
+.g_o_b {
+    letter-spacing: -1.1px;
 }
 
-.Y_o {
-    letter-spacing: -1.6px;
-}
+
 
 
 

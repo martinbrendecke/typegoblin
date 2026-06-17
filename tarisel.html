@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Goblin-forged fonts">
+<title>Tarisel</title>
+
+    <!--css-->
+<link href="style.css" rel="stylesheet" type="text/css">
+    <!--favicon-->
+<link rel="icon" href="/favicon.ico" sizes="32x32">
+<link rel="icon" href="/icon.svg" sizes="any" type="image/svg+xml">
+</head>
+
+
+<body>
+    
+    <main class="grid">
+        
+        <div class="flex T-bone margin-bottom">
+            <p1 class="bigT1">T</p1>
+            <p1 class="bigT2">T</p1>
+            <img class="tdc" src="/img/award-TDC.png">
+            <img class="gus" src="/img/award-GUS.svg">
+        </div>
+        
+        <div class="flex margin-bottom">
+            <p>Type Goblin’s award-winning, hybrid-Gothic display typeface is produced in collaboration with Zetafonts. Broken counterforms? Check. Gigantic serifs? Check. Lombardic and Gothic alternates? Double check. Great for drop caps, titles, posters, and reinforcing historic monuments.</p>
+            <a href="https://www.zetafonts.com/tarisel" target="_blank">
+                <button class="button">
+                    Get it on Zetafonts
+                </button>
+            </a>
+        </div>
+
+        <div class="flex margin-bottom">
+            <textarea align="left" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" class="tariselBlack bigboy ss08 text-field">Display</textarea>
+            
+            <textarea align="left" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" class="tariselBold bigboy text-field white ss08">capitals</textarea>
+            
+            <textarea align="left" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" class="tariselMedium bigboy ss08 text-field" >with a </textarea>
+            
+            <textarea align="left" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" class="tariselRegular bigboy text-field white ss08" >medieval</textarea>
+            
+            <textarea align="left" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" class="tariselLight bigboy text-field ss08" >twist</textarea>
+        </div>
+    
+    </main>
+
+
+    <footer class="footer">
+        <a href="/index.html">
+            <h1>t<span class="y_p">y</span>pe <span class="g_o_b">gobl</span>in</h1>
+        </a>
+        <a href="https://typegoblin.gumroad.com" target="_blank">Licensing</a>
+        <a href="https://www.instagram.com/martinbrendecke/" target="_blank">Instagram</a>
+        <a href="https://www.martinbrendecke.com/" target="_blank">Portfolio</a>
+        <a href="mailto:martin.brendecke@gmail.com">Email</a>
+        <br>
+        <br>
+        <p>©2026 <span class="T_y">T</span>ype Goblin
+    </footer>
+
+
+</body>
+
+
+<script>
+$(document).ready(function(){
+  $("a").on('click', function(event) {
+    if (this.hash !== "") {
+      event.preventDefault();
+      var hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+        window.location.hash = hash;
+      });
+    }
+  });
+});
+</script>
+
+    
+</html>

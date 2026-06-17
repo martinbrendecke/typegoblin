@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg id="artwork" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 500 500">
+  <!-- Generator: Adobe Illustrator 30.1.0, SVG Export Plug-In . SVG Version: 2.1.1 Build 136)  -->
   <defs>
     <style>
-        .g {fill: #fff;}
-        .bg {fill: #000;}
-<!--
-        @media (prefers-color-scheme: dark) {
-
-        }
--->
+      .st0 {
+        fill: #fff;
+      }
     </style>
   </defs>
-  <rect class="bg" x="0" y="0" width="500" height="500"/>
-  <path class="g" d="M70.7,246.1c0-85.6,68.8-162.8,181.9-162.8s98.9,4.2,149.8,8.4v84c-102-58.1-136-72.6-166.6-72.6-43.6,0-76,40.1-68.8,135.2h50.4c-3.1,19.1-4.6,38.2-4.6,57.3,0,45.1,11.5,90.9,46.2,90.9s43.9-36.3,43.9-108.5-4.2-67.2-13.8-100.1c66.5-3.8,124.5,35.1,124.5,99.3s-63.4,128.4-157,128.4-186.1-74.9-186.1-159.7Z"/>
+  <rect x="0" y="0" width="500" height="500"/>
+  <path class="st0" d="M95.5,377.3l121.6-10.3V122.7h-47.2l-66.7,194-14.5-2.8,25.2-183.7-33-7.4v-14.5h338v14.5l-33,7.4,25.2,183.7-14.2,2.8-67-194h-47.2v244.4l121.6,10.3v14.5H95.5v-14.5Z"/>
 </svg>

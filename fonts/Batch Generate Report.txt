@@ -1,0 +1,190 @@
+Batch Generate:
+***************
+
+    Batch Generated Web Fonts:
+    **************************
+
+    Decompose:
+    **********
+
+        Tarisel Text 260518 30
+        Tarisel Text 260518 106
+        Tarisel Text 260518 Thin
+        Tarisel Text 260518 Light
+        Tarisel Text 260518 Regular
+        Tarisel Text 260518 Medium
+
+    Remove Overlap:
+    ***************
+
+        Tarisel Text 260518 30
+        Tarisel Text 260518 106
+        Tarisel Text 260518 Thin
+        Tarisel Text 260518 Light
+        Tarisel Text 260518 Regular
+        Tarisel Text 260518 Medium
+
+    Generate:
+    *********
+
+        TariselText_20260518_wght30.ufo
+        *******************************
+
+
+            source: /Users/martin/Documents/10 EsadType/30 Tarisel/20 Text/20 UFO/tariselText_20260518/TariselText_20260518_wght30.ufo
+
+            Generate otf-woff2
+            ******************
+
+                path: /Users/martin/Documents/1 Type Goblin/20 Site/typegoblin/fonts/Web/temp_0_TariselText-26051830.otf)
+                    --------------------
+                    
+                    fontmake Report
+                    
+                    Build succesfull: /Users/martin/Documents/1 Type Goblin/20 Site/typegoblin/fonts/Web/temp_0_TariselText-26051830.otf
+                    
+                    Building OTF for TariselText-26051830
+                    Pre-processing glyphs
+                    Running SkipExportGlyphsFilter on TariselText-26051830
+                    Running DecomposeComponentsFilter on TariselText-26051830
+                    Building OpenType tables
+                    Merging kerning lookups from the following scripts: Grek, Latn
+                    Subroutinizing CFF table with cffsubr
+                    Saving /Users/martin/Documents/1 Type Goblin/20 Site/typegoblin/fonts/Web/temp_0_TariselText-26051830.otf
+                    
+                    --------------------
+
+        TariselText_20260518_wght106.ufo
+        ********************************
+
+
+            source: /Users/martin/Documents/10 EsadType/30 Tarisel/20 Text/20 UFO/tariselText_20260518/TariselText_20260518_wght106.ufo
+
+            Generate otf-woff2
+            ******************
+
+                path: /Users/martin/Documents/1 Type Goblin/20 Site/typegoblin/fonts/Web/temp_1_TariselText-260518106.otf)
+                    --------------------
+                    
+                    fontmake Report
+                    
+                    Build succesfull: /Users/martin/Documents/1 Type Goblin/20 Site/typegoblin/fonts/Web/temp_1_TariselText-260518106.otf
+                    
+                    Building OTF for TariselText-260518106
+                    Pre-processing glyphs
+                    Running SkipExportGlyphsFilter on TariselText-260518106
+                    Running DecomposeComponentsFilter on TariselText-260518106
+                    Building OpenType tables
+                    Merging kerning lookups from the following scripts: Grek, Latn
+                    Subroutinizing CFF table with cffsubr
+                    Saving /Users/martin/Documents/1 Type Goblin/20 Site/typegoblin/fonts/Web/temp_1_TariselText-260518106.otf
+                    
+                    --------------------
+
+        TariselText-260518Thin.ufo
+        **************************
+
+
+            source: /Users/martin/Documents/10 EsadType/30 Tarisel/20 Text/20 UFO/tariselText_20260518/instances/TariselText-260518Thin.ufo
+
+            Generate otf-woff2
+            ******************
+
+                path: /Users/martin/Documents/1 Type Goblin/20 Site/typegoblin/fonts/Web/temp_2_TariselText-260518Thin.otf)
+                    --------------------
+                    
+                    fontmake Report
+                    
+                    Build succesfull: /Users/martin/Documents/1 Type Goblin/20 Site/typegoblin/fonts/Web/temp_2_TariselText-260518Thin.otf
+                    
+                    Building OTF for TariselText-260518Thin
+                    Pre-processing glyphs
+                    Running SkipExportGlyphsFilter on TariselText-260518Thin
+                    Running DecomposeComponentsFilter on TariselText-260518Thin
+                    Building OpenType tables
+                    Merging kerning lookups from the following scripts: Grek, Latn
+                    Subroutinizing CFF table with cffsubr
+                    Saving /Users/martin/Documents/1 Type Goblin/20 Site/typegoblin/fonts/Web/temp_2_TariselText-260518Thin.otf
+                    
+                    --------------------
+
+        TariselText-260518Light.ufo
+        ***************************
+
+
+            source: /Users/martin/Documents/10 EsadType/30 Tarisel/20 Text/20 UFO/tariselText_20260518/instances/TariselText-260518Light.ufo
+
+            Generate otf-woff2
+            ******************
+
+                path: /Users/martin/Documents/1 Type Goblin/20 Site/typegoblin/fonts/Web/temp_3_TariselText-260518Light.otf)
+                    --------------------
+                    
+                    fontmake Report
+                    
+                    Build succesfull: /Users/martin/Documents/1 Type Goblin/20 Site/typegoblin/fonts/Web/temp_3_TariselText-260518Light.otf
+                    
+                    Building OTF for TariselText-260518Light
+                    Pre-processing glyphs
+                    Running SkipExportGlyphsFilter on TariselText-260518Light
+                    Running DecomposeComponentsFilter on TariselText-260518Light
+                    Building OpenType tables
+                    Merging kerning lookups from the following scripts: Grek, Latn
+                    Subroutinizing CFF table with cffsubr
+                    Saving /Users/martin/Documents/1 Type Goblin/20 Site/typegoblin/fonts/Web/temp_3_TariselText-260518Light.otf
+                    
+                    --------------------
+
+        TariselText-260518Regular.ufo
+        *****************************
+
+
+            source: /Users/martin/Documents/10 EsadType/30 Tarisel/20 Text/20 UFO/tariselText_20260518/instances/TariselText-260518Regular.ufo
+
+            Generate otf-woff2
+            ******************
+
+                path: /Users/martin/Documents/1 Type Goblin/20 Site/typegoblin/fonts/Web/temp_4_TariselText-260518Regular.otf)
+                    --------------------
+                    
+                    fontmake Report
+                    
+                    Build succesfull: /Users/martin/Documents/1 Type Goblin/20 Site/typegoblin/fonts/Web/temp_4_TariselText-260518Regular.otf
+                    
+                    Building OTF for TariselText-260518Regular
+                    Pre-processing glyphs
+                    Running SkipExportGlyphsFilter on TariselText-260518Regular
+                    Running DecomposeComponentsFilter on TariselText-260518Regular
+                    Building OpenType tables
+                    Merging kerning lookups from the following scripts: Grek, Latn
+                    Subroutinizing CFF table with cffsubr
+                    Saving /Users/martin/Documents/1 Type Goblin/20 Site/typegoblin/fonts/Web/temp_4_TariselText-260518Regular.otf
+                    
+                    --------------------
+
+        TariselText-260518Medium.ufo
+        ****************************
+
+
+            source: /Users/martin/Documents/10 EsadType/30 Tarisel/20 Text/20 UFO/tariselText_20260518/instances/TariselText-260518Medium.ufo
+
+            Generate otf-woff2
+            ******************
+
+                path: /Users/martin/Documents/1 Type Goblin/20 Site/typegoblin/fonts/Web/temp_5_TariselText-260518Medium.otf)
+                    --------------------
+                    
+                    fontmake Report
+                    
+                    Build succesfull: /Users/martin/Documents/1 Type Goblin/20 Site/typegoblin/fonts/Web/temp_5_TariselText-260518Medium.otf
+                    
+                    Building OTF for TariselText-260518Medium
+                    Pre-processing glyphs
+                    Running SkipExportGlyphsFilter on TariselText-260518Medium
+                    Running DecomposeComponentsFilter on TariselText-260518Medium
+                    Building OpenType tables
+                    Merging kerning lookups from the following scripts: Grek, Latn
+                    Subroutinizing CFF table with cffsubr
+                    Saving /Users/martin/Documents/1 Type Goblin/20 Site/typegoblin/fonts/Web/temp_5_TariselText-260518Medium.otf
+                    
+                    --------------------
