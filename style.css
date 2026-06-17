@@ -355,6 +355,7 @@ b {
     font-family: Psalicorne;
     font-size: 14vw;
     line-height: 106%;
+    margin: 0 8px;
 }
 
 .indexPsali:hover{
@@ -649,6 +650,11 @@ footer {
 
 .margin-top {
     margin-top: 40px;
+}
+
+
+.space-before {
+    margin-top: 20px;
 }
 
 .button-box {
