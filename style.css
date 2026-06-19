@@ -11,9 +11,9 @@ html {
 }
 
 body {
-    padding: 4vw;
     background: #000;
     color: #00FF00;
+    margin: 0;
 }
 
 .white {
@@ -225,19 +225,53 @@ b {
 
 /*      buttons      */
 
-.button{
+.button-shell {
+    position: relative;
+    display: flex;
+    margin: 40px 0 40px;
+}
+
+.button, .b2, .b3 {
     position: relative;
     border: 2px solid;
     border-color: #00FF00;
     line-height: 3;
     padding: 0px 30px 4px;
-	font-family: TextMedium, serif;
+	font-family: TextRegular, serif;
     font-size: 20px;
     text-align: center;
     color: #00FF00;
-    border-radius: 32px;
+    border-radius: 100px;
     background-color: #000;
-    margin: 40px 0 40px;
+}
+
+/*
+.button:hover{
+    color: #FFF;
+    border-color: #FFF;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.button:active {
+    color: #000;
+    background-color: #000;
+    border-color: #000;
+}
+*/
+
+.b2, .b3 {
+    position: absolute;
+    transform: translate(4px, 6px);
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    height: 68px;
+}
+
+.b3 {
+    transform: translate(8px, 12px);
+    z-index: -2;
 }
 
 .button:hover{
@@ -247,18 +281,8 @@ b {
 }
 
 .button:active {
-    color: #000;
-    background-color: #000;
-    border-color: #000;
+    opacity: 0;
 }
-
-/* old butt
-.button:active {
-    color: #000;
-    background-color: #00FF00;
-    border-color: #00FF00;
-}
-*/
 
 
 /*      stylistic sets      */
@@ -312,6 +336,7 @@ b {
 }
 
 
+
 /*      index      */
 
 .indexTarisel {
@@ -320,49 +345,89 @@ b {
     line-height: 100%;
 }
 
-.indexTarisel:hover{
+.indexTarisel:hover {
     font-feature-settings: "ss03" 1, "ss04" 1, "ss01" 1;
 }
 
 .indexFusti {
     font-family: Fustinberg;
     font-size: 14vw;
-    line-height: 111%;
+    line-height: 115%;
 }
 
-.indexFusti:hover{
-  -webkit-font-feature-settings: "ss01" 1;
-  -moz-font-feature-settings:    "ss01" 1;
-  -ms-font-feature-settings:     "ss01" 1;
+.indexFusti:hover {
   font-feature-settings:         "ss01" 1;
 }
 
 .indexGnar {
+    position: relative;
+    left: -2vw;
     font-family: Gnarthex;
     font-size: 14vw;
-    line-height: 106%;
+    line-height: 100%;
     width: 104%;
 }
 
-.indexGnar:hover{
-  -webkit-font-feature-settings: "ss01" 1;
-  -moz-font-feature-settings:    "ss01" 1;
-  -ms-font-feature-settings:     "ss01" 1;
+.indexGnar:hover {
   font-feature-settings:         "ss01" 1;
 }
 
 .indexPsali {
     font-family: Psalicorne;
     font-size: 14vw;
-    line-height: 106%;
+    line-height: 110%;
     margin: 0 8px;
 }
 
 .indexPsali:hover{
-  -webkit-font-feature-settings: "ss01" 1;
-  -moz-font-feature-settings:    "ss01" 1;
-  -ms-font-feature-settings:     "ss01" 1;
   font-feature-settings:         "ss01" 1;
+}
+
+
+/*      index mobile      */
+
+@media (max-width: 800px){
+    
+    .indexTarisel {
+        font-size: 13.75vw;
+
+    }
+
+    .indexTarisel:hover{
+        font-feature-settings: "ss03" 0, "ss04" 0, "ss01" 0;
+    }
+
+    .indexFusti {
+        font-size: 19.25vw;
+    }
+    
+    
+    .indexFusti:hover{
+      font-feature-settings:         "ss01" 0;
+    }
+    
+    .indexGnar {
+        font-size: 21vw;
+        left: -1.6vw;
+    }
+    
+    .indexGnar:hover {
+      font-feature-settings:         "ss01" 0;
+    }
+    
+    .indexPsali {
+        font-size: 19.5vw;
+        position: relative;
+
+    }
+
+    .indexPsali:hover {
+      font-feature-settings:         "ss01" 0;
+    }
+    
+    .indexTari, .indexFusti, .indexGnar, .indexPsali {
+        line-height: 80%;
+    }
 }
 
 /*      header      */
@@ -383,7 +448,6 @@ b {
 */
 
 
-
 /*      flex      */
 
 .grid {
@@ -391,7 +455,16 @@ b {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 5vw 5vw 0;
 }
+
+/*
+@media (min-width: 1000px) {
+    .grid, .footer{
+        padding: 50px; 
+    }
+}
+*/
 
 .flex {
     width: 100%;
@@ -412,7 +485,7 @@ b {
 }
 
 
-/*      Input      */
+/*      input      */
 
 textarea {
     resize: none;
@@ -433,10 +506,6 @@ textarea {
     caret-shape: block;
     overflow-clip-margin: 40px;
     min-height: auto;
-}
-
-.bigboy {
-    font-size: 140px;
 }
 
 textarea:focus {
@@ -493,6 +562,28 @@ textMedium, serif;
     font-size: 180px;
 }
 
+.bigboy {
+    font-size: 140px;
+}
+
+
+/*      input mobile      */
+
+@media (max-width: 500px){
+    textarea{
+        font-size: 10vw;
+    }
+    
+    .bigboy{
+        font-size: 11.25vw;
+    }
+
+    .psalicorne {
+        font-size: 18vw;
+    }
+    
+}
+
 
 /*      Mr. T      */
 
@@ -517,13 +608,6 @@ textMedium, serif;
     color: #fff;
     animation: Tswap 2.5s infinite;
 }
-
-
-/*@media (min-width: 1000px){
-    .bigT .bigZ {
-        font-size: 600px;
-    }
-}*/
 
 @keyframes Tswap {
   0% {
@@ -584,53 +668,31 @@ textMedium, serif;
 }
 
 
+/*      T-bone mobile      */
 
-/*      animation 1    */
-
-/*
-.doubles {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 14.5vw;
-    text-align: center;
-    font-feature-settings: 'ss02';
-    animation: dblswap 2.7s linear infinite;
-}
-
-@media (min-width: 1000px){
-    .doubles {
-        font-size: 7vw;
+@media (max-width: 750px){
+    .bigT1 {
+        font-size: 80vw;
     }
-}
 
-@keyframes dblswap {
-    from {font-feature-settings: normal;}
-    to {font-feature-settings: "ss02";}
-}
-*/
-
-
-/*      animation 2    */
-
-/*
-.question {
-    font-size: 92vw;
-    font-feature-settings: normal;
-    animation: question 2s linear infinite;
-}
-
-@keyframes question {
-    from {font-feature-settings: normal;}
-    to {font-feature-settings: "'ss10', ss14";}
-}
-
-@media (min-width: 500px){
-    .question {
-        font-size: 60vw;
+    .bigT2 {
+        font-size: 80vw;
     }
+
+    .tdc {
+        width: 40vw;
+        top: 32vw;
+        right: 30vw;
+    }
+
+    .gus {
+        width: 40vw;
+        top: 21vw;
+        right: 12vw;
+    }
+    
+    
 }
-*/
 
 
 /*      footer      */
@@ -638,7 +700,10 @@ textMedium, serif;
 footer {
     display: flex;
     flex-direction: column;
-    margin: 40px 0;
+/*    align-items: flex-end;*/
+    padding: 40px 5vw 5vw 5vw;
+    margin-top: 40px;
+    border-top: 2px solid #00FF00;
 }
 
 
@@ -652,20 +717,48 @@ footer {
     margin-top: 40px;
 }
 
-
 .space-before {
     margin-top: 20px;
+}
+
+.space-after {
+    margin-bottom: 20px;
 }
 
 .button-box {
     flex-direction: row;
     justify-content: flex-start;
+    margin-top: 40px;
 }
 
 .button2 {
     margin-left: 40px;
 }
 
+@media (max-width: 500px){
+    .button-box {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+    
+    .button, .b2, .b3 {
+        left: -4px;
+    }
+    
+    .button2 {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    
+    .footer {
+        margin-top: 20px;
+    }
+}
+
+.column {
+    max-width: 640px;
+}
 
 
 /*  kerning pairs  */
