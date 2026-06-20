@@ -231,7 +231,7 @@ b {
     margin: 40px 0 40px;
 }
 
-.button, .b2, .b3 {
+button, .b2, .b3 {
     position: relative;
     border: 2px solid;
     border-color: #00FF00;
@@ -246,14 +246,14 @@ b {
 }
 
 /*
-.button:hover{
+button:hover{
     color: #FFF;
     border-color: #FFF;
     cursor: pointer;
     opacity: 0;
 }
 
-.button:active {
+button:active {
     color: #000;
     background-color: #000;
     border-color: #000;
@@ -455,7 +455,7 @@ b {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 5vw 5vw 0;
+    padding: 5vw 4vw 0;
 }
 
 /*
@@ -701,7 +701,7 @@ footer {
     display: flex;
     flex-direction: column;
 /*    align-items: flex-end;*/
-    padding: 40px 5vw 5vw 5vw;
+    padding: 40px 4vw 4vw 4vw;
     margin-top: 40px;
     border-top: 2px solid #00FF00;
 }
@@ -742,7 +742,7 @@ footer {
         margin-top: 20px;
     }
     
-    .button, .b2, .b3 {
+    button, .b2, .b3 {
         left: -4px;
     }
     
