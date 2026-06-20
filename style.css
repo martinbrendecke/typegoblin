@@ -496,8 +496,8 @@ textarea {
     font: inherit;
     appearance: none;
     box-sizing: border-box;
-    margin: none;
-    padding: none;
+    margin: 0;
+    padding: 0 !important;
     border: none;
     border-radius: 0;
     width: 100%;
@@ -508,8 +508,6 @@ textarea {
     caret-shape: block;
     overflow-clip-margin: 40px;
     min-height: auto;
-    max-width: none;
-    min-width: none;
 }
 
 textarea:focus {
@@ -576,6 +574,7 @@ textMedium, serif;
 @media (max-width: 500px){
     textarea{
         font-size: 10vw;
+        padding: 0 !important;
     }
     
     .bigboy{
