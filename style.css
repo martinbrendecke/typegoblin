@@ -274,7 +274,7 @@ button:active {
     z-index: -2;
 }
 
-.button:hover{
+button:hover{
     color: #FFF;
     border-color: #FFF;
     cursor: pointer;
