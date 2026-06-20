@@ -473,6 +473,8 @@ button:hover{
     align-items: center;
     justify-content: center;
     text-align: center;
+    margin: none;
+    padding: none;
 }
 
 .flex-left {
@@ -506,6 +508,8 @@ textarea {
     caret-shape: block;
     overflow-clip-margin: 40px;
     min-height: auto;
+    max-width: none;
+    min-width: none;
 }
 
 textarea:focus {
