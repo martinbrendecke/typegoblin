@@ -28,7 +28,7 @@
             </div>
             <div class="flex">
                 <a class="index" href="fustinberg.html">
-                    <h1 class="indexFusti">Fustinberg</h1>
+                    <h1 class="indexFusti calt">Fustinberg</h1>
                 </a>
             </div>
             <div class="flex">
@@ -56,28 +56,16 @@
         <a href="mailto:martin.brendecke@gmail.com">Email</a>
         <br>
         <br>
-        <p>©2026 <span class="T_y">T</span>ype Goblin
+        <p>
+            &copy;<span id="copyright"></span>
+           Type Goblin
+        </p>
     </footer>
 
 
 </body>
 
 
-<script>
-$(document).ready(function(){
-  $("a").on('click', function(event) {
-    if (this.hash !== "") {
-      event.preventDefault();
-      var hash = this.hash;
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
-        window.location.hash = hash;
-      });
-    }
-  });
-});
-</script>
-
+<script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
     
 </html>

@@ -280,7 +280,7 @@ button:hover{
     cursor: pointer;
 }
 
-.button:active {
+button:active {
     opacity: 0;
 }
 
@@ -351,12 +351,13 @@ button:hover{
 
 .indexFusti {
     font-family: Fustinberg;
+    font-kerning: none;
     font-size: 14vw;
     line-height: 115%;
 }
 
 .indexFusti:hover {
-  font-feature-settings:         "ss01" 1;
+  font-feature-settings: "ss01" 1;
 }
 
 .indexGnar {
@@ -369,7 +370,7 @@ button:hover{
 }
 
 .indexGnar:hover {
-  font-feature-settings:         "ss01" 1;
+  font-feature-settings: "ss01" 1;
 }
 
 .indexPsali {
@@ -380,7 +381,7 @@ button:hover{
 }
 
 .indexPsali:hover{
-  font-feature-settings:         "ss01" 1;
+  font-feature-settings: "ss01" 1;
 }
 
 
