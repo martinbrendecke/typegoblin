@@ -103,7 +103,15 @@ body {
 
 @font-face {
     font-family: 'Fustinberg';
-    src: url('/fonts/Fustinberg_Quadrata.woff2') format('woff2');
+    src: url('/fonts/FustinbergQuadrata.woff2') format('woff2');
+/*    font-weight: normal;*/
+    font-weight: 0;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fustinberg-semi';
+    src: url('/fonts/FustinbergSemiQuadrata.woff2') format('woff2');
 /*    font-weight: normal;*/
     font-weight: 0;
     font-style: normal;
@@ -351,13 +359,12 @@ button:active {
 
 .indexFusti {
     font-family: Fustinberg;
-    font-kerning: none;
     font-size: 14vw;
     line-height: 115%;
 }
 
 .indexFusti:hover {
-  font-feature-settings: "ss01" 1;
+    font-family: Fustinberg-semi;
 }
 
 .indexGnar {
@@ -404,7 +411,7 @@ button:active {
     
     
     .indexFusti:hover{
-      font-feature-settings:         "ss01" 0;
+        font-family: Fustinberg-semi;
     }
     
     .indexGnar {
@@ -549,10 +556,17 @@ textMedium, serif;
     line-height: 120%;
 }
 
+
 .fustinberg {
     font-family: Fustinberg, textRegular, serif;
     line-height: 120%;
 }
+
+.fustinberg-semi {
+    font-family: Fustinberg-semi, textRegular, serif;
+    line-height: 120%;
+}
+
 
 .gnarthex {
     font-family: Gnarthex, textRegular, serif;
